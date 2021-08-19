@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   name: vote
   labels:
-    istio-injection: disabled
+    istio-injection: enabled
 ---
 apiVersion: v1
 kind: Service
